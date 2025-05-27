@@ -6,7 +6,17 @@ public class Test{
 	public Test(){
 
 		stk = new int[10];
-		top = 1
+		top = 1;
 	}
+
+	public boolean isEmpty(){
+		return top =1;
+		}
+
+	public boolean isFull(){
+		return top = stk.leanth - 1;
+		}
+
+
 
 }
