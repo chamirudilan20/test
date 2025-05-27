@@ -16,7 +16,23 @@ public class Test{
 	public boolean isFull(){
 		return top = stk.leanth - 1;
 		}
+	public void push(){
+			if(isFull()){
+				System.out.println("stack overflow")
+					}else{
+						stk(++top)= item;
+						}
 
+	public void display(){
+
+		if (isEmpty()){
+			System.out.println("");
+			}
+
+
+	}
+
+		}
 
 
 }
